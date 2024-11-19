@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
+    printf("Finding the POSITIVE,NEGATIVE or ZERO\n");
+    printf("--------------------\n");
     int a;
     printf("Please enter a number: ");
     scanf("%d", &a);

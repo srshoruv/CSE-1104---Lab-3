@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
+    printf("Finding ODD or EVEN\n");
+    printf("--------------------\n");
     int a;
     printf("Please enter a number: ");
     scanf("%d", &a);

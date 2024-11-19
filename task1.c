@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
+    printf("Finding the maximum\n");
+    printf("--------------------\n");
     int a, b;
     printf("Please enter first number: ");
     scanf("%d", &a);
