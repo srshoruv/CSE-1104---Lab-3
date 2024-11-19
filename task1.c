@@ -2,19 +2,24 @@
 
 int main()
 {
-    printf("Finding the maximum\n");
-    printf("--------------------\n");
-    int a, b;
-    printf("Please enter first number: ");
-    scanf("%d", &a);
-    printf("Please enter second number: ");
-    scanf("%d", &b);
-
-    if (a>b) {
-        printf("%d is the maximum\n", a);
-    } else {
-        printf("%d is the maximum\n", b);
+    printf("Finding the number is POSITIVE, NEGATAIVE or ZERO \n");
+    printf("-----------------------------------------------\n");
+    int a;
+    printf("Enter a number: ");
+    if (!scanf("%d", &a)) {
+        printf("Invalid input! \n");
+        return 0;
     }
 
-    return 0;
+    if (a>0) 
+    {
+        printf("%d is a POSITIVE number.\n", a);
+    } else if (a < 0) 
+    {
+        printf("%d is a NEGATIVE number.\n", a);
+    } else
+    {
+        printf("Entered number is ZERO. \n");
+    }
+
 }
