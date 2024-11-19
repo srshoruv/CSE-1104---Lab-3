@@ -1,16 +1,27 @@
 #include <stdio.h>
 
-int main(){
+int isDigit(char ch) {
+    return (ch >= '0' && ch <= '9');
+}
+
+
+int main()
+{
     printf("Finding ODD or EVEN\n");
     printf("--------------------\n");
-    int a;
+    char ch;
     printf("Please enter a number: ");
-    scanf("%d", &a);
+    scanf("%c", &ch);
 
-    if (a%2==0) {
-        printf("%d is an EVEN number.\n", a);
-    } else {
-        printf("%d is a ODD number.\n", a);
+    if (isDigit(ch) && ch%2==0) 
+    {
+        printf("%c is an EVEN number.\n", ch);
+    } else if (isDigit(ch) && ch%2==1) 
+    {
+        printf("%c is a ODD number.\n", ch);
+    } else 
+    {
+        printf("Invalid Input!\n");
     }
 
     return 0;

@@ -1,19 +1,24 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     printf("Finding the POSITIVE,NEGATIVE or ZERO\n");
     printf("--------------------\n");
     int a;
     printf("Please enter a number: ");
     scanf("%d", &a);
 
-    if (a>0) {
+    if (a>0) 
+    {
         printf("%d is a POSITIVE number.\n", a);
-    } else if (a < 0) {
+    } else if (a < 0) 
+    {
         printf("%d is a NEGATIVE number.\n", a);
-    } else if (a==0) {
+    } else if (a==0) 
+    {
         printf("Entered number is ZERO. \n");
-    } else {
+    } else 
+    {
         printf("Invalid Number!\n");
     }
     

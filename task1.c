@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     printf("Finding the maximum\n");
     printf("--------------------\n");
     int a, b;
