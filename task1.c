@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     printf("Finding the number is POSITIVE, NEGATAIVE or ZERO \n");
@@ -10,7 +9,6 @@ int main()
         printf("Invalid input! \n");
         return 0;
     }
-
     if (a>0) 
     {
         printf("%d is a POSITIVE number.\n", a);
